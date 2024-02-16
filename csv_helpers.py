@@ -23,9 +23,6 @@ def process_csv(df: pd.DataFrame, curr_year: str = "2022", next_year: str = "202
 
     # Ensure the DataFrame columns are in the desired order, including new columns
     df = df[['Date', 'VH', 'Team', 'team_id', 'opp_team', 'opp_team_id', '1st', '2nd', '3rd', '4th', 'Final', 'Open', 'Close', 'ML', 'Result']]
-    
-    # df = df[['Date', 'VH', 'Team', 'team_id', '1st', '2nd', '3rd', '4th', 'Final', 'Open', 'Close', 'ML', 'Result']]
-
 
     return df
 
