@@ -14,25 +14,16 @@ def get_player_ids_by_team_id(team_id: str):
 
 # Get players stats from recent n games
 def get_players_stats(player_ids: list, season: str = "2023-24", last_n_games: int = 10, opp_team_id: str = None, dateTo: str = None):
-    args = [(player_id, last_n_games) for player_id in player_ids]
+    args = [(player_id, season, last_n_games, opp_team_id, dateTo) for player_id in player_ids]
     
-    # with ThreadPoolExecutor(max_workers=5) as executor:
-    #     results = executor.map(lambda p: _get_player_stats(*p), args)
+    with ThreadPoolExecutor(max_workers=5) as executor:
         
-    #     try:
-    #         print(next(results))
-    #         return results
-    #     except Exception as e:
-    #         print("Error:", e)
+        futures = [executor.submit(_get_player_stats, arg[0], arg[1], arg[2], arg[3], arg[4]) for arg in args]
+        results = []
+        for future in futures:
+            results.append(future.result())
         
-    results = []
-    for player_id in player_ids:
-        results.append(_get_player_stats(player_id, season=season, last_n_games=last_n_games, opp_team_id=opp_team_id, dateTo=dateTo))
-    
-    to_return = pd.concat(results)
-    to_return["GAME_DATE"] = pd.to_datetime(to_return["GAME_DATE"]).dt.date
-    
-    return to_return
+        return pd.concat(results)
         
 # Get players stats from recent n games
 def _get_player_stats(player_id: str, season: str = "2023-24", last_n_games: int = 10, opp_team_id: str = None, dateTo: str = None):

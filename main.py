@@ -1,6 +1,11 @@
 from nba_api.stats.endpoints import playercareerstats
-from nba_api.stats.static import teams
 from teams_to_id import teams_to_id
 import players_fn as p
 
-print(p.get_player_ids_by_team_id("1610612746"))
+CLIPPERS_ID = "1610612746"
+
+
+# player_ids = p.get_player_ids_by_team_id(CLIPPERS_ID)
+# get_players_stats = p.get_players_stats(player_ids)
+# print(get_players_stats)
+
