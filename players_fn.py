@@ -25,7 +25,7 @@ def get_players_stats(player_ids: list, season: str = "2023-24", last_n_games: i
         
         return pd.concat(results)
         
-# Get players stats from recent n games
+# Get single player stats
 def _get_player_stats(player_id: str, season: str = "2023-24", last_n_games: int = 10, opp_team_id: str = None, dateTo: str = None):
     playergamelogs_df = playergamelogs.PlayerGameLogs(
                                                         player_id_nullable=player_id,
