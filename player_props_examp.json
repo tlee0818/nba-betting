@@ -1,1267 +1,314 @@
 {
     "home_team": "Philadelphia 76ers",
     "away_team": "Milwaukee Bucks",
-    "market": "player_assists_over_under",
+    "start_timestamp": "2024-02-25T18:00:00Z",
+    "market": "player_points_over_under",
     "odds": [
         {
-            "timestamp": "2024-02-25T18:56:02",
-            "handicap": 0.5,
+            "timestamp": "2024-02-25T11:40:09",
+            "handicap": 27.5,
             "odds": -105,
-            "participant": 17240,
-            "participant_name": "Bobby Portis",
-            "name": "Over - Bobby Portis",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:15:03",
-            "handicap": 1.5,
-            "odds": 1200,
-            "participant": 17240,
-            "participant_name": "Bobby Portis",
-            "name": "Over - Bobby Portis",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:16:03",
-            "handicap": 1.5,
-            "odds": 650,
-            "participant": 16510,
-            "participant_name": "Brook Lopez",
-            "name": "Over - Brook Lopez",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:28:13",
-            "handicap": 2.5,
-            "odds": 175,
-            "participant": 16510,
-            "participant_name": "Brook Lopez",
-            "name": "Over - Brook Lopez",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:18:03",
-            "handicap": 3.5,
-            "odds": 1000,
-            "participant": 16510,
-            "participant_name": "Brook Lopez",
-            "name": "Over - Brook Lopez",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 1.5,
-            "odds": -800,
             "participant": null,
             "participant_name": null,
-            "name": "Over - Buddy Hield",
-            "description": " Alt Assists O/U"
+            "name": "Over - Tyrese Maxey",
+            "description": " Alt Points O/U"
         },
         {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 2.5,
-            "odds": -250,
+            "timestamp": "2024-02-25T11:40:09",
+            "handicap": 27.5,
+            "odds": -135,
             "participant": null,
             "participant_name": null,
-            "name": "Over - Buddy Hield",
-            "description": " Alt Assists O/U"
+            "name": "Under - Tyrese Maxey",
+            "description": " Alt Points O/U"
         },
         {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 5.5,
-            "odds": 425,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Buddy Hield",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T19:24:02",
-            "handicap": 1.5,
-            "odds": 110,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Buddy Hield",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:31:16",
-            "handicap": 2.5,
-            "odds": -235,
-            "participant": 17118,
-            "participant_name": "Buddy Hield",
-            "name": "Over - Buddy Hield",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:20:03",
-            "handicap": 3.5,
-            "odds": 140,
-            "participant": 17118,
-            "participant_name": "Buddy Hield",
-            "name": "Over - Buddy Hield",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:24:02",
-            "handicap": 4.5,
-            "odds": 475,
-            "participant": 17118,
-            "participant_name": "Buddy Hield",
-            "name": "Over - Buddy Hield",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:24:02",
-            "handicap": 0.5,
-            "odds": 360,
-            "participant": 1160,
-            "participant_name": "Cameron Payne",
-            "name": "Over - Cameron Payne",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:35:03",
-            "handicap": 1.5,
-            "odds": 155,
-            "participant": 1160,
-            "participant_name": "Cameron Payne",
-            "name": "Over - Cameron Payne",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 5.5,
-            "odds": -195,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Damian Lillard",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 8.5,
-            "odds": 295,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Damian Lillard",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:16:04",
-            "handicap": 5.5,
-            "odds": -160,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Damian Lillard",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:06:05",
-            "handicap": 6.5,
-            "odds": -115,
-            "participant": 16490,
-            "participant_name": "Damian Lillard",
-            "name": "Over - Damian Lillard",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:24:02",
-            "handicap": 7.5,
-            "odds": -110,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Damian Lillard",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:31:16",
-            "handicap": 8.5,
+            "timestamp": "2024-02-25T17:04:04",
+            "handicap": 21.5,
             "odds": -185,
             "participant": null,
             "participant_name": null,
             "name": "Over - Damian Lillard",
-            "description": " Assists"
+            "description": " Alt Points O/U"
         },
         {
-            "timestamp": "2024-02-25T20:04:03",
-            "handicap": 10.5,
-            "odds": 155,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Damian Lillard",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:50:03",
-            "handicap": 1.5,
-            "odds": -210,
-            "participant": 940,
-            "participant_name": "De'Anthony Melton",
-            "name": "Over - De'Anthony Melton",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:52:07",
-            "handicap": 2.5,
-            "odds": -120,
-            "participant": 940,
-            "participant_name": "De'Anthony Melton",
-            "name": "Over - De'Anthony Melton",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:18:03",
-            "handicap": 3.5,
-            "odds": 1200,
-            "participant": 940,
-            "participant_name": "De'Anthony Melton",
-            "name": "Over - De'Anthony Melton",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 5.5,
-            "odds": -275,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Giannis Antetokounmpo",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 8.5,
-            "odds": 195,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Giannis Antetokounmpo",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T19:06:05",
-            "handicap": 6.5,
-            "odds": -165,
-            "participant": 16489,
-            "participant_name": "Giannis Antetokounmpo",
-            "name": "Over - Giannis Antetokounmpo",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:02:14",
-            "handicap": 7.5,
-            "odds": -180,
-            "participant": 16489,
-            "participant_name": "Giannis Antetokounmpo",
-            "name": "Over - Giannis Antetokounmpo",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:10:13",
-            "handicap": 8.5,
-            "odds": -125,
-            "participant": 16489,
-            "participant_name": "Giannis Antetokounmpo",
-            "name": "Over - Giannis Antetokounmpo",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:18:03",
-            "handicap": 9.5,
-            "odds": 370,
-            "participant": 16489,
-            "participant_name": "Giannis Antetokounmpo",
-            "name": "Over - Giannis Antetokounmpo",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:54:17",
-            "handicap": 1.5,
-            "odds": -175,
-            "participant": 17461,
-            "participant_name": "Jae Crowder",
-            "name": "Over - Jae Crowder",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:04:02",
-            "handicap": 2.5,
-            "odds": -110,
-            "participant": 17461,
-            "participant_name": "Jae Crowder",
-            "name": "Over - Jae Crowder",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:15:03",
-            "handicap": 3.5,
-            "odds": 1100,
-            "participant": 17461,
-            "participant_name": "Jae Crowder",
-            "name": "Over - Jae Crowder",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 1.5,
-            "odds": -425,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Kyle Lowry",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 3.5,
-            "odds": 170,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Kyle Lowry",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 5.5,
-            "odds": 850,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Kyle Lowry",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:46:07",
-            "handicap": 1.5,
-            "odds": -125,
-            "participant": 763,
-            "participant_name": "Kyle Lowry",
-            "name": "Over - Kyle Lowry",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:50:08",
-            "handicap": 2.5,
+            "timestamp": "2024-02-25T17:04:04",
+            "handicap": 21.5,
             "odds": 135,
-            "participant": 763,
-            "participant_name": "Kyle Lowry",
-            "name": "Over - Kyle Lowry",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:20:03",
-            "handicap": 3.5,
-            "odds": 1200,
-            "participant": 763,
-            "participant_name": "Kyle Lowry",
-            "name": "Over - Kyle Lowry",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:26:03",
-            "handicap": 0.5,
-            "odds": -185,
-            "participant": 375,
-            "participant_name": "Malik Beasley",
-            "name": "Over - Malik Beasley",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:18:03",
-            "handicap": 1.5,
-            "odds": 1000,
-            "participant": 375,
-            "participant_name": "Malik Beasley",
-            "name": "Over - Malik Beasley",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:15:03",
-            "handicap": 0.5,
-            "odds": 225,
-            "participant": 16711,
-            "participant_name": "Nicolas Batum",
-            "name": "Over - Nicolas Batum",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:39:05",
-            "handicap": 1.5,
-            "odds": 170,
             "participant": null,
             "participant_name": null,
-            "name": "Over - Nicolas Batum",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:05:03",
-            "handicap": 0.5,
-            "odds": 330,
-            "participant": 17252,
-            "participant_name": "Pat Connaughton",
-            "name": "Over - Pat Connaughton",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:20:03",
-            "handicap": 1.5,
-            "odds": 400,
-            "participant": 17252,
-            "participant_name": "Pat Connaughton",
-            "name": "Over - Pat Connaughton",
-            "description": " Assists"
+            "name": "Under - Damian Lillard",
+            "description": " Alt Points O/U"
         },
         {
             "timestamp": "2024-02-25T18:12:03",
-            "handicap": 1.5,
-            "odds": -320,
+            "handicap": 12.5,
+            "odds": -155,
             "participant": null,
             "participant_name": null,
-            "name": "Over - Patrick Beverley",
-            "description": " Alt Assists O/U"
+            "name": "Over - Bobby Portis",
+            "description": " Alt Points O/U"
         },
         {
             "timestamp": "2024-02-25T18:12:03",
-            "handicap": 3.5,
-            "odds": 225,
+            "handicap": 10.5,
+            "odds": -220,
             "participant": null,
             "participant_name": null,
-            "name": "Over - Patrick Beverley",
-            "description": " Alt Assists O/U"
+            "name": "Over - Brook Lopez",
+            "description": " Alt Points O/U"
         },
         {
             "timestamp": "2024-02-25T18:12:03",
-            "handicap": 5.5,
-            "odds": 1200,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Patrick Beverley",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T20:22:11",
-            "handicap": 2.5,
-            "odds": 130,
-            "participant": 17253,
-            "participant_name": "Patrick Beverley",
-            "name": "Over - Patrick Beverley",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:52:07",
-            "handicap": 3.5,
-            "odds": 150,
-            "participant": 17253,
-            "participant_name": "Patrick Beverley",
-            "name": "Over - Patrick Beverley",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:54:17",
-            "handicap": 0.5,
-            "odds": -125,
-            "participant": 838,
-            "participant_name": "Paul Reed",
-            "name": "Over - Paul Reed",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:18:03",
-            "handicap": 1.5,
-            "odds": 500,
-            "participant": 838,
-            "participant_name": "Paul Reed",
-            "name": "Over - Paul Reed",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:06:05",
-            "handicap": 2.5,
-            "odds": 130,
-            "participant": 838,
-            "participant_name": "Paul Reed",
-            "name": "Over - Paul Reed",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 1.5,
-            "odds": -750,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Tobias Harris",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 2.5,
-            "odds": -240,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Tobias Harris",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 5.5,
-            "odds": 425,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Tobias Harris",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T20:18:03",
-            "handicap": 0.5,
-            "odds": 1000,
-            "participant": 835,
-            "participant_name": "Tobias Harris",
-            "name": "Over - Tobias Harris",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:31:16",
-            "handicap": 1.5,
-            "odds": 155,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Tobias Harris",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:56:02",
-            "handicap": 2.5,
-            "odds": 140,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Tobias Harris",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:16:04",
-            "handicap": 3.5,
-            "odds": 115,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Tobias Harris",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 3.5,
-            "odds": -700,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Tyrese Maxey",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T11:40:09",
-            "handicap": 5.5,
+            "handicap": 12.5,
             "odds": -160,
             "participant": null,
             "participant_name": null,
-            "name": "Over - Tyrese Maxey",
-            "description": " Alt Assists O/U"
+            "name": "Over - Buddy Hield",
+            "description": " Alt Points O/U"
         },
         {
             "timestamp": "2024-02-25T18:12:03",
             "handicap": 6.5,
-            "odds": 115,
+            "odds": -225,
             "participant": null,
             "participant_name": null,
-            "name": "Over - Tyrese Maxey",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T11:40:09",
-            "handicap": 8.5,
-            "odds": 340,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Tyrese Maxey",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:14:02",
-            "handicap": 5.5,
-            "odds": -150,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Tyrese Maxey",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T11:40:09",
-            "handicap": 6.5,
-            "odds": 120,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Tyrese Maxey",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:18:03",
-            "handicap": 7.5,
-            "odds": 140,
-            "participant": 837,
-            "participant_name": "Tyrese Maxey",
-            "name": "Over - Tyrese Maxey",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:01:03",
-            "handicap": 8.5,
-            "odds": 140,
-            "participant": 837,
-            "participant_name": "Tyrese Maxey",
-            "name": "Over - Tyrese Maxey",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:29:01",
-            "handicap": 9.5,
-            "odds": 135,
-            "participant": null,
-            "participant_name": null,
-            "name": "Over - Tyrese Maxey",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:50:03",
-            "handicap": 10.5,
-            "odds": 125,
-            "participant": 837,
-            "participant_name": "Tyrese Maxey",
-            "name": "Over - Tyrese Maxey",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:56:02",
-            "handicap": 0.5,
-            "odds": -125,
-            "participant": 17240,
-            "participant_name": "Bobby Portis",
-            "name": "Under - Bobby Portis",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:15:03",
-            "handicap": 1.5,
-            "odds": -10000,
-            "participant": 17240,
-            "participant_name": "Bobby Portis",
-            "name": "Under - Bobby Portis",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:16:03",
-            "handicap": 1.5,
-            "odds": -1600,
-            "participant": 16510,
-            "participant_name": "Brook Lopez",
-            "name": "Under - Brook Lopez",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:28:13",
-            "handicap": 2.5,
-            "odds": -235,
-            "participant": 16510,
-            "participant_name": "Brook Lopez",
-            "name": "Under - Brook Lopez",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:18:03",
-            "handicap": 3.5,
-            "odds": -5000,
-            "participant": 16510,
-            "participant_name": "Brook Lopez",
-            "name": "Under - Brook Lopez",
-            "description": " Assists"
+            "name": "Over - De'Anthony Melton",
+            "description": " Alt Points O/U"
         },
         {
             "timestamp": "2024-02-25T18:12:03",
-            "handicap": 1.5,
-            "odds": 475,
+            "handicap": 30.5,
+            "odds": -140,
             "participant": null,
             "participant_name": null,
-            "name": "Under - Buddy Hield",
-            "description": " Alt Assists O/U"
+            "name": "Over - Giannis Antetokounmpo",
+            "description": " Alt Points O/U"
         },
         {
             "timestamp": "2024-02-25T18:12:03",
-            "handicap": 2.5,
-            "odds": 175,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Buddy Hield",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 5.5,
-            "odds": -650,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Buddy Hield",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T19:24:02",
-            "handicap": 1.5,
-            "odds": -145,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Buddy Hield",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:31:16",
-            "handicap": 2.5,
-            "odds": 170,
-            "participant": 17118,
-            "participant_name": "Buddy Hield",
-            "name": "Under - Buddy Hield",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:20:03",
-            "handicap": 3.5,
-            "odds": -190,
-            "participant": 17118,
-            "participant_name": "Buddy Hield",
-            "name": "Under - Buddy Hield",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:24:02",
-            "handicap": 4.5,
-            "odds": -900,
-            "participant": 17118,
-            "participant_name": "Buddy Hield",
-            "name": "Under - Buddy Hield",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:24:02",
-            "handicap": 0.5,
-            "odds": -575,
-            "participant": 1160,
-            "participant_name": "Cameron Payne",
-            "name": "Under - Cameron Payne",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:35:03",
-            "handicap": 1.5,
-            "odds": -210,
-            "participant": 1160,
-            "participant_name": "Cameron Payne",
-            "name": "Under - Cameron Payne",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 5.5,
-            "odds": 140,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Damian Lillard",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 8.5,
-            "odds": -450,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Damian Lillard",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:16:04",
-            "handicap": 5.5,
-            "odds": 120,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Damian Lillard",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:06:05",
-            "handicap": 6.5,
-            "odds": -115,
-            "participant": 16490,
-            "participant_name": "Damian Lillard",
-            "name": "Under - Damian Lillard",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:24:02",
-            "handicap": 7.5,
-            "odds": -125,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Damian Lillard",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:31:16",
-            "handicap": 8.5,
-            "odds": 140,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Damian Lillard",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:04:03",
             "handicap": 10.5,
             "odds": -210,
             "participant": null,
             "participant_name": null,
-            "name": "Under - Damian Lillard",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:50:03",
-            "handicap": 1.5,
-            "odds": 155,
-            "participant": 940,
-            "participant_name": "De'Anthony Melton",
-            "name": "Under - De'Anthony Melton",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:52:07",
-            "handicap": 2.5,
-            "odds": -110,
-            "participant": 940,
-            "participant_name": "De'Anthony Melton",
-            "name": "Under - De'Anthony Melton",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:18:03",
-            "handicap": 3.5,
-            "odds": -10000,
-            "participant": 940,
-            "participant_name": "De'Anthony Melton",
-            "name": "Under - De'Anthony Melton",
-            "description": " Assists"
+            "name": "Over - Kelly Oubre Jr.",
+            "description": " Alt Points O/U"
         },
         {
             "timestamp": "2024-02-25T18:12:03",
-            "handicap": 5.5,
-            "odds": 190,
+            "handicap": 10.5,
+            "odds": -160,
             "participant": null,
             "participant_name": null,
-            "name": "Under - Giannis Antetokounmpo",
-            "description": " Alt Assists O/U"
+            "name": "Over - Malik Beasley",
+            "description": " Alt Points O/U"
         },
         {
             "timestamp": "2024-02-25T18:12:03",
-            "handicap": 8.5,
-            "odds": -280,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Giannis Antetokounmpo",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T19:06:05",
             "handicap": 6.5,
-            "odds": 125,
-            "participant": 16489,
-            "participant_name": "Giannis Antetokounmpo",
-            "name": "Under - Giannis Antetokounmpo",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:02:14",
-            "handicap": 7.5,
-            "odds": 135,
-            "participant": 16489,
-            "participant_name": "Giannis Antetokounmpo",
-            "name": "Under - Giannis Antetokounmpo",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:10:13",
-            "handicap": 8.5,
-            "odds": -105,
-            "participant": 16489,
-            "participant_name": "Giannis Antetokounmpo",
-            "name": "Under - Giannis Antetokounmpo",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:18:03",
-            "handicap": 9.5,
-            "odds": -600,
-            "participant": 16489,
-            "participant_name": "Giannis Antetokounmpo",
-            "name": "Under - Giannis Antetokounmpo",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:54:17",
-            "handicap": 1.5,
-            "odds": 130,
-            "participant": 17461,
-            "participant_name": "Jae Crowder",
-            "name": "Under - Jae Crowder",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:04:02",
-            "handicap": 2.5,
-            "odds": -120,
-            "participant": 17461,
-            "participant_name": "Jae Crowder",
-            "name": "Under - Jae Crowder",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:15:03",
-            "handicap": 3.5,
-            "odds": -8000,
-            "participant": 17461,
-            "participant_name": "Jae Crowder",
-            "name": "Under - Jae Crowder",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 1.5,
-            "odds": 285,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Kyle Lowry",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 3.5,
-            "odds": -240,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Kyle Lowry",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 5.5,
-            "odds": -1600,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Kyle Lowry",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:46:07",
-            "handicap": 1.5,
-            "odds": -105,
-            "participant": 763,
-            "participant_name": "Kyle Lowry",
-            "name": "Under - Kyle Lowry",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:50:08",
-            "handicap": 2.5,
-            "odds": -180,
-            "participant": 763,
-            "participant_name": "Kyle Lowry",
-            "name": "Under - Kyle Lowry",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:20:03",
-            "handicap": 3.5,
-            "odds": -20000,
-            "participant": 763,
-            "participant_name": "Kyle Lowry",
-            "name": "Under - Kyle Lowry",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:26:03",
-            "handicap": 0.5,
-            "odds": 135,
-            "participant": 375,
-            "participant_name": "Malik Beasley",
-            "name": "Under - Malik Beasley",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:18:03",
-            "handicap": 1.5,
-            "odds": -5000,
-            "participant": 375,
-            "participant_name": "Malik Beasley",
-            "name": "Under - Malik Beasley",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:15:03",
-            "handicap": 0.5,
-            "odds": -320,
-            "participant": 16711,
-            "participant_name": "Nicolas Batum",
-            "name": "Under - Nicolas Batum",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:39:05",
-            "handicap": 1.5,
             "odds": -230,
             "participant": null,
             "participant_name": null,
-            "name": "Under - Nicolas Batum",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:05:03",
-            "handicap": 0.5,
-            "odds": -525,
-            "participant": 17252,
-            "participant_name": "Pat Connaughton",
-            "name": "Under - Pat Connaughton",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:20:03",
-            "handicap": 1.5,
-            "odds": -650,
-            "participant": 17252,
-            "participant_name": "Pat Connaughton",
-            "name": "Under - Pat Connaughton",
-            "description": " Assists"
+            "name": "Over - Paul Reed",
+            "description": " Alt Points O/U"
         },
         {
             "timestamp": "2024-02-25T18:12:03",
-            "handicap": 1.5,
-            "odds": 220,
+            "handicap": 15.5,
+            "odds": -185,
             "participant": null,
             "participant_name": null,
-            "name": "Under - Patrick Beverley",
-            "description": " Alt Assists O/U"
+            "name": "Over - Tobias Harris",
+            "description": " Alt Points O/U"
         },
         {
             "timestamp": "2024-02-25T18:12:03",
-            "handicap": 3.5,
-            "odds": -330,
+            "handicap": 12.5,
+            "odds": 110,
             "participant": null,
             "participant_name": null,
-            "name": "Under - Patrick Beverley",
-            "description": " Alt Assists O/U"
+            "name": "Under - Bobby Portis",
+            "description": " Alt Points O/U"
         },
         {
             "timestamp": "2024-02-25T18:12:03",
+            "handicap": 10.5,
+            "odds": 160,
+            "participant": null,
+            "participant_name": null,
+            "name": "Under - Brook Lopez",
+            "description": " Alt Points O/U"
+        },
+        {
+            "timestamp": "2024-02-25T18:12:03",
+            "handicap": 12.5,
+            "odds": 115,
+            "participant": null,
+            "participant_name": null,
+            "name": "Under - Buddy Hield",
+            "description": " Alt Points O/U"
+        },
+        {
+            "timestamp": "2024-02-25T18:12:03",
+            "handicap": 6.5,
+            "odds": 160,
+            "participant": null,
+            "participant_name": null,
+            "name": "Under - De'Anthony Melton",
+            "description": " Alt Points O/U"
+        },
+        {
+            "timestamp": "2024-02-25T18:12:03",
+            "handicap": 30.5,
+            "odds": 100,
+            "participant": null,
+            "participant_name": null,
+            "name": "Under - Giannis Antetokounmpo",
+            "description": " Alt Points O/U"
+        },
+        {
+            "timestamp": "2024-02-25T18:12:03",
+            "handicap": 10.5,
+            "odds": 150,
+            "participant": null,
+            "participant_name": null,
+            "name": "Under - Kelly Oubre Jr.",
+            "description": " Alt Points O/U"
+        },
+        {
+            "timestamp": "2024-02-25T18:12:03",
+            "handicap": 10.5,
+            "odds": 115,
+            "participant": null,
+            "participant_name": null,
+            "name": "Under - Malik Beasley",
+            "description": " Alt Points O/U"
+        },
+        {
+            "timestamp": "2024-02-25T18:12:03",
+            "handicap": 6.5,
+            "odds": 165,
+            "participant": null,
+            "participant_name": null,
+            "name": "Under - Paul Reed",
+            "description": " Alt Points O/U"
+        },
+        {
+            "timestamp": "2024-02-25T18:12:03",
+            "handicap": 15.5,
+            "odds": 135,
+            "participant": null,
+            "participant_name": null,
+            "name": "Under - Tobias Harris",
+            "description": " Alt Points O/U"
+        },
+        {
+            "timestamp": "2024-02-25T18:18:06",
             "handicap": 5.5,
-            "odds": -2500,
+            "odds": 100,
             "participant": null,
             "participant_name": null,
-            "name": "Under - Patrick Beverley",
-            "description": " Alt Assists O/U"
+            "name": "Over - Jae Crowder",
+            "description": " Points"
         },
         {
-            "timestamp": "2024-02-25T20:22:11",
-            "handicap": 2.5,
-            "odds": -175,
-            "participant": 17253,
-            "participant_name": "Patrick Beverley",
-            "name": "Under - Patrick Beverley",
-            "description": " Assists"
+            "timestamp": "2024-02-25T18:18:06",
+            "handicap": 5.5,
+            "odds": -125,
+            "participant": null,
+            "participant_name": null,
+            "name": "Under - Jae Crowder",
+            "description": " Points"
         },
         {
-            "timestamp": "2024-02-25T19:52:07",
+            "timestamp": "2024-02-25T18:28:13",
             "handicap": 3.5,
-            "odds": -205,
+            "odds": -125,
+            "participant": null,
+            "participant_name": null,
+            "name": "Over - Pat Connaughton",
+            "description": " Points"
+        },
+        {
+            "timestamp": "2024-02-25T18:28:13",
+            "handicap": 3.5,
+            "odds": -105,
+            "participant": null,
+            "participant_name": null,
+            "name": "Under - Pat Connaughton",
+            "description": " Points"
+        },
+        {
+            "timestamp": "2024-02-25T18:32:03",
+            "handicap": 4.5,
+            "odds": -110,
+            "participant": 1160,
+            "participant_name": "Cameron Payne",
+            "name": "Under - Cameron Payne",
+            "description": " Points"
+        },
+        {
+            "timestamp": "2024-02-25T18:39:05",
+            "handicap": 5.5,
+            "odds": -135,
+            "participant": 1160,
+            "participant_name": "Cameron Payne",
+            "name": "Over - Cameron Payne",
+            "description": " Points"
+        },
+        {
+            "timestamp": "2024-02-25T18:46:07",
+            "handicap": 2.5,
+            "odds": -110,
+            "participant": 17253,
+            "participant_name": "Patrick Beverley",
+            "name": "Over - Patrick Beverley",
+            "description": " Points"
+        },
+        {
+            "timestamp": "2024-02-25T18:46:07",
+            "handicap": 2.5,
+            "odds": -120,
             "participant": 17253,
             "participant_name": "Patrick Beverley",
             "name": "Under - Patrick Beverley",
-            "description": " Assists"
+            "description": " Points"
         },
         {
             "timestamp": "2024-02-25T18:54:17",
-            "handicap": 0.5,
-            "odds": -105,
-            "participant": 838,
-            "participant_name": "Paul Reed",
-            "name": "Under - Paul Reed",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:18:03",
-            "handicap": 1.5,
-            "odds": -1000,
-            "participant": 838,
-            "participant_name": "Paul Reed",
-            "name": "Under - Paul Reed",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:06:05",
             "handicap": 2.5,
-            "odds": -170,
-            "participant": 838,
-            "participant_name": "Paul Reed",
-            "name": "Under - Paul Reed",
-            "description": " Assists"
+            "odds": 100,
+            "participant": 16711,
+            "participant_name": "Nicolas Batum",
+            "name": "Over - Nicolas Batum",
+            "description": " Points"
         },
         {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 1.5,
-            "odds": 450,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Tobias Harris",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
+            "timestamp": "2024-02-25T18:54:17",
             "handicap": 2.5,
-            "odds": 170,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Tobias Harris",
-            "description": " Alt Assists O/U"
+            "odds": -130,
+            "participant": 16711,
+            "participant_name": "Nicolas Batum",
+            "name": "Under - Nicolas Batum",
+            "description": " Points"
         },
         {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 5.5,
-            "odds": -650,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Tobias Harris",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T20:18:03",
-            "handicap": 0.5,
-            "odds": -5000,
-            "participant": 835,
-            "participant_name": "Tobias Harris",
-            "name": "Under - Tobias Harris",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:31:16",
-            "handicap": 1.5,
-            "odds": -205,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Tobias Harris",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:56:02",
-            "handicap": 2.5,
-            "odds": -190,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Tobias Harris",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:16:04",
-            "handicap": 3.5,
-            "odds": -150,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Tobias Harris",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
-            "handicap": 3.5,
-            "odds": 450,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Tyrese Maxey",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T11:40:09",
-            "handicap": 5.5,
-            "odds": 115,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Tyrese Maxey",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:12:03",
+            "timestamp": "2024-02-25T19:39:09",
             "handicap": 6.5,
-            "odds": -160,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Tyrese Maxey",
-            "description": " Alt Assists O/U"
+            "odds": 110,
+            "participant": 763,
+            "participant_name": "Kyle Lowry",
+            "name": "Over - Kyle Lowry",
+            "description": " Points"
         },
         {
-            "timestamp": "2024-02-25T11:40:09",
-            "handicap": 8.5,
-            "odds": -525,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Tyrese Maxey",
-            "description": " Alt Assists O/U"
-        },
-        {
-            "timestamp": "2024-02-25T18:14:02",
-            "handicap": 5.5,
-            "odds": 115,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Tyrese Maxey",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T11:40:09",
+            "timestamp": "2024-02-25T19:39:09",
             "handicap": 6.5,
             "odds": -150,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Tyrese Maxey",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:18:03",
-            "handicap": 7.5,
-            "odds": -190,
-            "participant": 837,
-            "participant_name": "Tyrese Maxey",
-            "name": "Under - Tyrese Maxey",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T20:01:03",
-            "handicap": 8.5,
-            "odds": -180,
-            "participant": 837,
-            "participant_name": "Tyrese Maxey",
-            "name": "Under - Tyrese Maxey",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T19:29:01",
-            "handicap": 9.5,
-            "odds": -175,
-            "participant": null,
-            "participant_name": null,
-            "name": "Under - Tyrese Maxey",
-            "description": " Assists"
-        },
-        {
-            "timestamp": "2024-02-25T18:50:03",
-            "handicap": 10.5,
-            "odds": -170,
-            "participant": 837,
-            "participant_name": "Tyrese Maxey",
-            "name": "Under - Tyrese Maxey",
-            "description": " Assists"
+            "participant": 763,
+            "participant_name": "Kyle Lowry",
+            "name": "Under - Kyle Lowry",
+            "description": " Points"
         }
     ]
 }

@@ -2,6 +2,8 @@ import requests
 import urllib
 from datetime import datetime
 import json
+from itertools import groupby
+from operator import itemgetter
 from dotenv import load_dotenv
 import os
 
@@ -20,7 +22,7 @@ ALL_MARKETS = ["final_score", "first_half_moneyline", "first_half_spread", "firs
             "second_half_total_over_under", "spread", "spread_alternate", "team_odd_even", "team_over_under", "team_over_under_alternate", "total_odd_even", "total_odd_even_first_half",\
             "total_over_under", "total_over_under_alternate"]
 
-INTEREST_MARKETS = ["player_assists_over_under", "player_blocks_over_under", "player_points_over_under", "player_rebounds_over_under",\
+INTEREST_MARKETS = ["player_points_over_under", "player_assists_over_under", "player_blocks_over_under", "player_rebounds_over_under",\
                     "player_steals_over_under", "player_threes_over_under", "player_turnovers_over_under"]
 
 
@@ -81,19 +83,31 @@ def main():
         game_id = game['game_id']
         home_team = game['home_team']
         away_team = game['away_team']
+        start_timestamp = game['start_timestamp']
         
         for market in INTEREST_MARKETS:
             
             all_odds = get_most_recent_odds(game_id, market)["sportsbooks"]
             # find the dictionary where bookie_key is "draftkings"
             draftkings_odds = next((d for d in all_odds if d.get('bookie_key') == 'draftkings'), None)
-                        
+            
+            # sort the odds by timestamp
+            live_odds_sorted = sorted(draftkings_odds["market"]["outcomes"], key=lambda x: x['timestamp'])
+            
+            # Group by 'name' and take the first item of each group
+            seen = set()
+            grouped_list = []
+            for item in live_odds_sorted:
+                if item['name'] not in seen:
+                    grouped_list.append(item)
+                    seen.add(item['name'])
+                
             result = {
                 "home_team": home_team,
                 "away_team": away_team,
+                "start_timestamp": start_timestamp,
                 "market": market,
-                "odds": draftkings_odds["market"]["outcomes"]
-            
+                "odds": grouped_list
             }
 
             with open('player_props_examp.json', 'w') as f:
