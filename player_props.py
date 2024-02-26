@@ -55,15 +55,6 @@ def get_game_info(game_id):
     return get_request(url)
 
 
-def get_markets(game_id):
-    query_params = {
-        'api_key': API_KEY,
-    }
-    params = urllib.parse.urlencode(query_params)
-    url = BASE_URL + '/beta/markets/' + game_id + '?' + params
-    return get_request(url)
-
-
 def get_most_recent_odds(game_id, market):
     query_params = {
         'api_key': API_KEY,
@@ -72,8 +63,40 @@ def get_most_recent_odds(game_id, market):
     url = BASE_URL + '/beta/odds/' + game_id + '/' + market + '?' + params
     return get_request(url)
 
+def get_player_props(game_id, market):
+    game_info = get_game_info(game_id)["game"]
+    home_team = game_info['home_team']
+    away_team = game_info['away_team']
+    start_timestamp = game_info['start_timestamp']
+    
+    all_odds = get_most_recent_odds(game_id, market)["sportsbooks"]
+    
+    # find the dictionary where bookie_key is "draftkings"
+    draftkings_odds = next((d for d in all_odds if d.get('bookie_key') == 'draftkings'), None)
+    
+    # sort the odds by timestamp
+    live_odds_sorted = sorted(draftkings_odds["market"]["outcomes"], key=lambda x: x['timestamp'])
+    
+    # Group by 'name' and take the first item of each group
+    seen = set()
+    grouped_list = []
+    for item in live_odds_sorted:
+        if item['name'] not in seen:
+            grouped_list.append(item)
+            seen.add(item['name'])
+        
+    result = {
+        "home_team": home_team,
+        "away_team": away_team,
+        "start_timestamp": start_timestamp,
+        "market": market,
+        "odds": grouped_list
+    }
+    
+    return result
 
-def main():
+#example of getting all games for today and getting player props for each game
+def example():
     games = get_nba_games(datetime.now())
     if len(games['games']) == 0:
         print('No games scheduled for today.')
@@ -81,41 +104,12 @@ def main():
 
     for game in games['games']:
         game_id = game['game_id']
-        home_team = game['home_team']
-        away_team = game['away_team']
-        start_timestamp = game['start_timestamp']
         
         for market in INTEREST_MARKETS:
             
-            all_odds = get_most_recent_odds(game_id, market)["sportsbooks"]
-            # find the dictionary where bookie_key is "draftkings"
-            draftkings_odds = next((d for d in all_odds if d.get('bookie_key') == 'draftkings'), None)
-            
-            # sort the odds by timestamp
-            live_odds_sorted = sorted(draftkings_odds["market"]["outcomes"], key=lambda x: x['timestamp'])
-            
-            # Group by 'name' and take the first item of each group
-            seen = set()
-            grouped_list = []
-            for item in live_odds_sorted:
-                if item['name'] not in seen:
-                    grouped_list.append(item)
-                    seen.add(item['name'])
-                
-            result = {
-                "home_team": home_team,
-                "away_team": away_team,
-                "start_timestamp": start_timestamp,
-                "market": market,
-                "odds": grouped_list
-            }
+            result = get_player_props(game_id, market)
 
             with open('player_props_examp.json', 'w') as f:
                 json.dump(result, f, indent=4)
             break
         break
-
-
-
-if __name__ == '__main__':
-    main()
