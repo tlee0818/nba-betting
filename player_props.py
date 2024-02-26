@@ -2,9 +2,13 @@ import requests
 import urllib
 from datetime import datetime
 import json
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 BASE_URL = 'https://api.prop-odds.com'
-API_KEY = ''
+API_KEY = os.getenv('PROP_ODDS_API_KEY')
 ALL_MARKETS = ["final_score", "first_half_moneyline", "first_half_spread", "first_half_spread_alternate", "first_half_team_over_under", "first_half_total_alternate",\
             "first_half_total_over_under", "first_quarter_moneyline", "first_quarter_spread", "first_quarter_total", "has_overtime", "moneyline", "moneyline_regulation",\
             "player_assists_over_under", "player_assists_points_over_under", "player_assists_points_rebounds_over_under", "player_assists_rebounds_over_under",\
@@ -72,17 +76,30 @@ def main():
     if len(games['games']) == 0:
         print('No games scheduled for today.')
         return
-    
-    first_game = games['games'][0]
-    game_id = first_game['game_id']
-    
+
     for game in games['games']:
-        for market in INTEREST_MARKETS: 
-            odds = get_most_recent_odds(game_id, market)
+        game_id = game['game_id']
+        home_team = game['home_team']
+        away_team = game['away_team']
+        
+        for market in INTEREST_MARKETS:
+            
+            all_odds = get_most_recent_odds(game_id, market)["sportsbooks"]
+            # find the dictionary where bookie_key is "draftkings"
+            draftkings_odds = next((d for d in all_odds if d.get('bookie_key') == 'draftkings'), None)
+                        
+            result = {
+                "home_team": home_team,
+                "away_team": away_team,
+                "market": market,
+                "odds": draftkings_odds["market"]["outcomes"]
+            
+            }
 
             with open('player_props_examp.json', 'w') as f:
-                json.dump(odds, f, indent=4)
+                json.dump(result, f, indent=4)
             break
+        break
 
 
 
